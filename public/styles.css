@@ -1,6 +1,22 @@
+body{
+  background-color: #26262D;
+}
+
+.hr{
+  margin: 25px 0;
+  height: 1px;
+  border: 0;
+  background: black;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(#31313A), to(#31313A), color-stop(50%, white));
+}
+
+.container{
+  background-color: #26262D
+}
 
 #card{
     color:white;
+    background-color: #1e272e;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoqMu11nwxH8qMyrrQph8cmfPCC0kg15s14w&usqp=CAU);
     text-align: center;
     width: 500px;
@@ -9,13 +25,21 @@
     border-radius: 1%;
 }
 
-h1{
-  padding: 20px 20px 10px 20px;
+.heading-skills{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: white;
+  padding-bottom: 0px;
+  padding-top:50px;
+  margin-left:20px;
 }
 
-.heading-skills{
+.heading-about{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
   padding-bottom: 0px;
-  padding-top:50px
+  margin-left:30px;
+  color: white;
 }
 
 .logo{
@@ -35,17 +59,27 @@ h1{
     border-color: blanchedalmond;
 }
 
+.email{
+  color: #78CC65;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+
 .profile-icons{
   height: 20px;
   width: 20px;
 }
 
-.profile{
-  padding: 2% 2%;
+.profile-name{
+  padding: 10px 20px -10px 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: -10px;
 }
 
-.navbar-icon{
-  margin: 0px 20px 0px 20px;
+.profile{
+  padding: 2% 2%;
 }
 
 .profile-contact-button{
@@ -61,22 +95,36 @@ h1{
   
 }
 
+#about-card{
+  background-color: #31313A;
+  color:#9E9EA2;
+}
+
 .about-card{
-  text-align: center;
+  text-align: left;
   width: 500px;
   margin-top: 25px;
   border-radius: 1%;
+  margin-left: 30px;
+}
+
+.paragraph-content{
+  margin-left: 30px;
 }
 
 .scroll {
   max-height: 600px;
   overflow-y: auto;
   scrollbar-width: thin;
-  background: #eee;
 }
 
 .quote{
   margin-top: 80px;
+}
+
+.quote-content{
+  width: 497px;
+  text-align: center;
 }
 
 .quote-icon-left{
@@ -85,4 +133,19 @@ h1{
 
 .quote-icon-right{
   height: 15px;
+}
+
+.blockquote-footer{
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.navbar-brand{
+  background-color: #31313A;
+}
+
+.navbar-icon{
+  background-color: #31313A;
+  margin: 0px 20px 0px 20px;
 }
