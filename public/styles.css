@@ -3,7 +3,7 @@ body{
 }
 
 .hr{
-  margin: 25px 0;
+  margin: 2px 0px 20px 0px;
   height: 1px;
   border: 0;
   background: black;
@@ -27,19 +27,44 @@ body{
 
 .heading-skills{
   font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
   font-weight: 800;
   color: white;
-  padding-bottom: 0px;
-  padding-top:50px;
+  padding-bottom: 10px;
+  padding-top:60px;
   margin-left:20px;
+  background: linear-gradient(to right, #92FF87, #94FA50 50%, white 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 800ms ease;
+}
+
+.heading-skills:hover{
+  background-position: 0 100%;
 }
 
 .heading-about{
+  font-size: 30px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
-  padding-bottom: 0px;
+  font-weight: 700;
+  padding-bottom: -20px;
   margin-left:30px;
+  margin-top: 20px;
   color: white;
+  background: linear-gradient(to right, #92FF87, #94FA50 50%, white 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 800ms ease;
+}
+
+.heading-about:hover {
+  background-position: 0 100%;
 }
 
 .logo{
@@ -135,8 +160,11 @@ body{
   height: 15px;
 }
 
-.blockquote-footer{
+.albert-einstein{
   text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 30px;
   margin-bottom: 40px;
   color: white;
 }
