@@ -2,6 +2,10 @@ body{
   background-color: #26262D;
 }
 
+#root{
+  background-color: #26262D  
+}
+
 .hr{
   margin: 2px 0px 20px 0px;
   height: 1px;
@@ -10,9 +14,7 @@ body{
   background: -webkit-gradient(linear, 0 0, 100% 0, from(#31313A), to(#31313A), color-stop(50%, white));
 }
 
-.container{
-  background-color: #26262D
-}
+/* Main Profile Card....................................................................... */
 
 #card{
     color:white;
@@ -120,6 +122,8 @@ body{
   
 }
 
+/* About Card............................................................................. */
+
 #about-card{
   background-color: #31313A;
   color:#9E9EA2;
@@ -169,11 +173,44 @@ body{
   color: white;
 }
 
+/* Navbar............................................................................. */
+
 .navbar-brand{
   background-color: #31313A;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.figures{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: #31313A;  
+}
+
+.navbar-icon{
+  background-color: #31313A;
+  height: 30px;
+  margin: 0px 20px 0px 20px;
 }
 
 .navbar-icon{
   background-color: #31313A;
   margin: 0px 20px 0px 20px;
+}
+
+.navbar-custom{
+  background-color: #26262D;  
+}
+
+.nav{
+  background-color: #26262D;
+  padding-top: 20px;
+}
+
+.nav-text{
+  padding-top:5px;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
 }
