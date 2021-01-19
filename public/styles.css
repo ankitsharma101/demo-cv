@@ -27,12 +27,101 @@ body{
     border-radius: 1%;
 }
 
+.logo{
+    height: 40px;
+    width: 30px;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    border-color: black;
+}
+
+.col{
+  padding-top: 20px;
+  width: 20px;
+}
+
+#profile-picture{
+    height: 150px;
+    width: 150px;
+    margin-top: 180px;
+    border-width: 100%;
+    border-color: blanchedalmond;
+}
+
+.email{
+  color: #78CC65;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+
+.profile-icons{
+  height: 20px;
+  width: 20px;
+  margin-left: 15px;
+  margin-top: 3px;
+}
+
+.profile-name{
+  padding: 10px 20px -10px 20px;
+  color: #DED1B5;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: -10px;
+}
+
+.profile{
+  padding: 2% 2%;
+  /* background-color: #31313A; */
+}
+
+.btn-block{
+  margin-top: 0px;
+}
+
+.profile-contact-button{
+  text-align: center;
+  /* min-width: 250px;
+  max-width: 250px; */
+}
+
+.profile-resume-button{
+  text-align: center;
+  margin-top: 8px;
+  /* min-width: 250px;
+  max-width: 250px; */
+  
+}
+
+.resume-text{
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 70px;
+  margin-top: 2px;
+}
+
+.contact-text{
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 45px;
+  margin-top: 2px;
+}
+
+
+/* About Card............................................................................. */
+
+#about-card{
+  background-color: #31313A;
+  color:#9E9EA2;
+}
+
 .heading-skills{
   font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
-  font-weight: 800;
+  font-size: 25px;
+  font-weight: 700;
   color: white;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   padding-top:60px;
   margin-left:20px;
   background: linear-gradient(to right, #92FF87, #94FA50 50%, white 50%);
@@ -49,7 +138,7 @@ body{
 }
 
 .heading-about{
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   padding-bottom: -20px;
@@ -69,66 +158,6 @@ body{
   background-position: 0 100%;
 }
 
-.logo{
-    border-radius: 100%;
-    height: 20px;
-    width: 20px;
-    padding: 20px 5px;
-    border-color: blanchedalmond;
-}
-
-#profile-picture{
-    /* border-radius: 100%; */
-    height: 150px;
-    width: 150px;
-    margin-top: 180px;
-    border-width: 100%;
-    border-color: blanchedalmond;
-}
-
-.email{
-  color: #78CC65;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 20px;
-}
-
-.profile-icons{
-  height: 20px;
-  width: 20px;
-}
-
-.profile-name{
-  padding: 10px 20px -10px 20px;
-  font-family: 'Source Sans Pro', sans-serif;
-  margin-left: 10px;
-  margin-top: 30px;
-  margin-bottom: -10px;
-}
-
-.profile{
-  padding: 2% 2%;
-}
-
-.profile-contact-button{
-  text-align: center;
-  /* min-width: 250px;
-  max-width: 250px; */
-}
-
-.profile-resume-button{
-  text-align: center;
-  /* min-width: 250px;
-  max-width: 250px; */
-  
-}
-
-/* About Card............................................................................. */
-
-#about-card{
-  background-color: #31313A;
-  color:#9E9EA2;
-}
-
 .about-card{
   text-align: left;
   width: 500px;
@@ -139,6 +168,10 @@ body{
 
 .paragraph-content{
   margin-left: 30px;
+  margin-right: 30px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+
 }
 
 .scroll {

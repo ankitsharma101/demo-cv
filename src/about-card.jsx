@@ -9,8 +9,10 @@ function AboutCard(){
             <Card.Subtitle class="paragraph-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </Card.Subtitle>
 
-<Card.Title class="heading-skills"><h1 >Skills</h1></Card.Title>
+<Card.Title class="heading-skills"><h1 class="heading-skills" >Skills</h1></Card.Title>
 <hr class="hr"></hr>
+
+
 <Card.Subtitle class=""><h6 class="paragraph-content">Porgramming Languaes : Python, Java, C/C++</h6>
 <h6 class="paragraph-content">Development : Android, Java EE, MySQL</h6></Card.Subtitle>
 <blockquote class="blockquote mb-0  quote">
